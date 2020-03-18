@@ -1,8 +1,5 @@
 # Button 
 
-> “Buttons allow users to take actions, and make choices, with a single tap.”
-
-
 CONTENT
 
 * [Design Best Practices](#design-best-practices)
