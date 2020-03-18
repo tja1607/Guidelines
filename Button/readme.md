@@ -7,7 +7,6 @@ CONTENT
 
 * [Design Best Practices](#design-best-practices)
 * [Use](#use)
-* [Sizes](#sizes)
 * [Elevations](#elevations)
 * [Types](#Types)
 
@@ -16,7 +15,6 @@ CONTENT
 
 ## Design Best Practices
 #### Aim To 
-
 
 - Keep your submit-button disabled until all required fields are filled. 
 - Validate your input field on leaving it (even though the submit-button is disabled.)
@@ -28,23 +26,19 @@ CONTENT
 
 Buttons can either be onCanvas or floating. Buttons that are supposed to be over the keyboard on native have same behavior as floating buttons on all platforms!
 
-## Sizes
+### Sizes and roles
 Buttons are categorised as Size sm, md (default), lg, xl -> Role (1-4) -> Variation
 Size defines height of button and role defines how important the button is where 1 is the most important.
 
 
+ 
+- **XL:** Only used for FAB, that is always floating. Only available in primary color.
 
-#### XL: 
-- Only used for FAB, that is always floating. Only available in primary color.
+- **LG:** Use sparingly and mostly for messaging states, like empty states, and especially when there is only one button, like alerts. Min-width 220px.
 
-#### LG: 
-- Use sparingly and mostly for messaging states, like empty states, and especially when there is only one button, like alerts. Min-width 220px.
-
-#### MD: 
-- Mostly for multiple buttons. Either flexsized or as blocksize. Use “1” for primary action, and 2, 3 or 4 for secondary options. Min width 88px
-
-#### SM: 
-- Also used for multiple buttons, but mostly when amount of buttons >2. For example in detail pages where there are up to 3 buttons
+- **MD:** Mostly for multiple buttons. Either flexsized or as blocksize. Use “1” for primary action, and 2, 3 or 4 for secondary options. Min width 88px
+ 
+- **SM:** Also used for multiple buttons, but mostly when amount of buttons >2. For example in detail pages where there are up to 3 buttons
 
 
 ## Elevations
