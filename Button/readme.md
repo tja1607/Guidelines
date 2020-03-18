@@ -14,8 +14,6 @@ CONTENT
 
 
 
----
-
 ## Design Best Practices
 #### Aim To 
 
